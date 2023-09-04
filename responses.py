@@ -11,3 +11,6 @@ def handle_response(message: str) -> str:
 
     if p_message == '!help':
         return "Currently I can't do much but I'm learning. You can use `/roll` to roll a dice though."
+
+    if p_message == 'server status':
+        return "You can see the status here: https://stats.uptimerobot.com/LVjJxukGAZ"
